@@ -10,7 +10,6 @@ background-color: #fdbadb;
 nav { 
     align-self: center;
     max-width: 375px;
-    display: block;
     background-color: #BBBAFD;  
     text-align: center;
     overflow: hidden;
@@ -19,8 +18,7 @@ nav {
     border-style: solid;
     border-radius: 10px;
     border-color: #BAFDDC;
-    margin-left: auto;
-    margin-right: auto;
+
 
 }
 nav a{
@@ -28,8 +26,7 @@ nav a{
     text-decoration: none;
     font-size: 20px;
     transition: background-color 1.4s ease;
-    padding: 17px 10px;
-    padding-top: 14px;
+    padding: 30px 10px;
     border-radius: 7px;
     overflow: hidden;
     cursor:pointer;
@@ -38,9 +35,8 @@ nav a{
 nav a:hover {
     color: white;
     background-color: #fdbadb;
-    padding: 17px 10px;
-    padding-top: 14px;
-    border-radius: 7px;
+    padding: 30px 10px;
+    border-radius: 1px;
     overflow: hidden;
     transition: background-color 0.2s ease;
     transition: color 0.2s ease;
@@ -109,6 +105,7 @@ font-size: 20px;
     margin-left: auto;
     overflow-y: scroll;
     overflow-x: hidden;
+    text-align: center;
 }
 
 .unitlist a{
@@ -193,6 +190,4 @@ transition: background-color 0.9s ease;
 	position:relative;
 	top:1px;
 }
-
-
 
